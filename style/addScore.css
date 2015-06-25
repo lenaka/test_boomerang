@@ -1,0 +1,29 @@
+/* 
+    Document   : addScore
+    Created on : 24.06.2015, 18:37:05
+    Author     : kalina
+*/
+
+
+#iAddScore, #iViewScore {
+    border: 1px solid #cccccc;
+    margin: 10px;
+}
+
+.formAddScore table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.formAddScore td {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #DDDDDD;
+}
+
+/* Remove inside border in last row of table */
+.formAddScore tr:nth-last-child(1) td:nth-child(1), .formAddScore tr:nth-last-child(1) td:nth-child(2) {
+    border-right: none;
+}
+.formAddScore tr:nth-last-child(1) td:nth-child(2) {
+    border-left: none;
+}
+/* -- */

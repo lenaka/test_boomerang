@@ -1,0 +1,82 @@
+/* 
+    Document   : viewScore
+    Created on : 24.06.2015, 18:37:05
+    Author     : kalina
+*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.viewMenu {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+}
+.viewMenu td {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+}
+.viewMenu td:hover, .paging div:hover {
+    color: mediumblue;
+}
+.viewMenu .usual {
+    font-weight: normal;
+}
+.viewMenu .active {
+    background: #ccffcc;
+}
+/* Remove outside top and side border */
+.viewMenu td:nth-child(1){
+    border-left: none;
+}
+.viewMenu td:nth-last-child(1) {
+    border-right: none;
+}
+/* -- */
+.viewMenu td, .paging div {
+    cursor: pointer;
+}
+
+#scoreTable {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px;
+}
+#scoreTable td {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #DDDDDD;
+}
+
+#scoreTable td:nth-child(1) {
+    width: 30%;
+}
+
+/* Paging */
+div.paging {
+    width: 95%;
+    margin-left:50px;
+}
+.paging div {
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+#prev {
+    width:45%;
+    float:left;
+}
+#next {
+    width:45%;
+    float:left;
+    border-left: none;
+}
+.paging .disabled {
+    cursor: default;
+    background: #EEEEEE;
+}
+div.disabled:hover {
+    color: black;
+}
+/* -- */
