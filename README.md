@@ -1,9 +1,9 @@
 # test_boomerang
-Requirements
+##Requirements
 1. PHP v >= 5.4
 2. MySQL
 
-Installation
+##Installation
 1. Download project into DocumentRoot dir
 2. Create new DB for test_boomerang application
 3. Correct options in config/phpconfig.ini file. Don't forget new DB name
